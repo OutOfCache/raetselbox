@@ -1,0 +1,11 @@
+{
+    "raetsel": [
+	{
+	    "problemstellung": "Das ist ein Sumpf-Test",
+    	    "hinweise": ["Dies ist der erste Hinweis", "Dies ist der zweite Hinweis", "Dies ist der dritte Hinweis"],
+    	    "temp": 20,
+    	    "luft": 20,
+    	    "gelöst": "Yay es wurde gelöst!"
+	}
+    ]
+}
