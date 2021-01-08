@@ -1,11 +1,8 @@
 # wenn Pfade genommen werden, dann kann man auch die einzelnen Klassen weglassen
-import arctic, pyramid, swamp, atlantis 
+import json, raetsel as r
 
-# das ist sehr sinnfrei.
-# TODO: ändern in Pfade
-# z.B. scenes = [["pfad/zu/arctic.json", "pfad/zu/atlantis.json"] ... ]
-scenes = [[arctic.Arctic(), atlantis.Atlantis()],
-          [pyramid.Pyramid(), swamp.Swamp()]]
+scenes = [["arctic.json", "atlantis.json"],
+          ["pyramid.json", "swamp.json"]]
 
 
 temperature = float(input("Temperatur: "))
@@ -17,12 +14,12 @@ hum_switch = 20.0
 
 if temperature > temp_switch:
     temperature = 1
-else: 
+else:
     temperature = 0
 
 if humidity > hum_switch:
     humidity = 1
-else: 
+else:
     humidity = 0
 
 
@@ -30,3 +27,13 @@ cur_scenario = scenes[temperature][humidity]
 
 print(cur_scenario)
 
+with open(cur_scenario, "r") as file:
+    # Liste aller Rätsel in der Datei
+    data = json.load(file)['raetsel']
+
+    for raetsel in data:
+
+        r1 = r.Puzzle(raetsel)
+
+        print(r1)
+    
