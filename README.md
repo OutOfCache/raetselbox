@@ -10,6 +10,7 @@ FProg Projekt
   - [ ] Master-Rätsel?  
     müssen eventuell nur den Code prüfen
 - [ ] Treiber programmieren
+-> Treiber für display und helligkeit vorhanden und funktioniert soweit
 - [ ] Rätsel-loop schreiben
   - [ ] Rätsel aus JSON einlesen
   - [ ] Rätsel initialisieren (Rätsel-Klasse?)
