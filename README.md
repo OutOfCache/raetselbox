@@ -9,15 +9,15 @@ FProg Projekt
   - [ ] Atlantis
   - [ ] Master-Rätsel?  
     müssen eventuell nur den Code prüfen
-- [ ] Treiber programmieren
+- [x] Treiber programmieren
 -> Treiber für display und helligkeit vorhanden und funktioniert soweit
 - [ ] Rätsel-loop schreiben
-  - [ ] Rätsel aus JSON einlesen
-  - [ ] Rätsel initialisieren (Rätsel-Klasse?)
-  - [ ] Rätsel stellen
-  - [ ] Hinweise(? - eventuell optional)
-  - [ ] Lösung prüfen (nur Sensoren?)
-- [ ] Konfiguration (Python)
+  - [x] Rätsel aus JSON einlesen
+  - [x] Rätsel initialisieren (Rätsel-Klasse?)
+  - [x] Rätsel stellen
+  - [-] Hinweise(? - eventuell optional)
+  - [-] Lösung prüfen (nur Sensoren?)
+- [-] Konfiguration (Python)
   - [ ] Benutzer nach Eingaben für Text, Werte etc. fragen
   - [ ] JSON nach Angaben des Nutzers schreiben
   - [ ] JSON so konfigurieren, dass sie in der main verlinkt werden  
