@@ -39,7 +39,7 @@ def print_text(text):
             end = True
 
     for i in range(len(zeilen)):
-        draw.text((10, 10 * i)), zeilen[i])
+        draw.text((10, 10 * i), zeilen[i])
 
     #oled.display()
 
