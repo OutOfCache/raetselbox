@@ -4,7 +4,8 @@
 	    "problemstellung": "Das ist ein Atlantis-Test",
     	    "hinweise": ["Dies ist der erste Hinweis", "Dies ist der zweite Hinweis", "Dies ist der dritte Hinweis"],
     	    "temp": 20,
-    	    "luft": 20,
+			"luft": 20,
+			"hell": 20,
     	    "gelöst": "Yay es wurde gelöst!"
 	}
     ]

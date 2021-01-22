@@ -1,5 +1,6 @@
 # wenn Pfade genommen werden, dann kann man auch die einzelnen Klassen weglassen
 import json, raetsel as r
+import display
 
 scenes = [["arctic.json", "atlantis.json"],
           ["pyramid.json", "swamp.json"]]
